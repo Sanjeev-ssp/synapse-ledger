@@ -2,7 +2,7 @@
 
 > A secure, cyber-physical monitoring system for tracking dual-use chemical shipments in real time, combining IoT sensing with blockchain-based tamper-proof data storage.
 
-![Live Tracking Dashboard](assets/images/dashboard-live-tracking-demo.png)
+![Live Tracking Dashboard](assets/dashboard-live-tracking-demo.png)
 
 **B.Tech Major Project — Electronics & Computer Science Engineering**
 St. John College of Engineering and Management, Palghar (Autonomous, University of Mumbai) | 2025–2026
