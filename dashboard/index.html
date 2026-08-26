@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Synapse Ledger — Live Dashboard</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <h1>Synapse Ledger</h1>
+    <nav>
+      <a href="#tracking">Live Tracking</a>
+      <a href="#alerts">Alerts</a>
+      <a href="#history">History</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="tracking">
+      <h2>Live Shipment Tracking</h2>
+      <div id="map-placeholder">Map / location data will render here</div>
+    </section>
+
+    <section id="alerts">
+      <h2>Tamper Alerts</h2>
+      <ul id="alerts-list"></ul>
+    </section>
+
+    <section id="history">
+      <h2>Blockchain Event History</h2>
+      <table id="history-table">
+        <thead>
+          <tr><th>Unit ID</th><th>Status</th><th>Timestamp</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
